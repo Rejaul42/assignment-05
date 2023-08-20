@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale</title>
+    <!-- Tailwind and Daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/db1214c8dc.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .font-work-sans {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-work-sans">
+    <header class="bg-[#F9F6E2]">
+        <div class="grid lg:grid-cols-2 justify-center items-center gap-8 px-44">
+            <div>
+                <h3 class="text-3xl text-center font-medium mb-12">---SALE FEVER---</h3>
+                <h1 class="text-5xl font-bold mb-8">Purchase TK 200 or above & <span class="text-[#E527B2]">get 20%
+                        off</span></h1>
+                <p class="text-center text-2xl font-medium">Use Promo Code <span class="bg-[#E527B2] py-1 px-2 lg:py-3 lg:px-4 rounded-lg text-white">SELL200</span></p>
+            </div>
+            <div>
+                <img src="images/Summer 1.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="bg-[#F8F8F8] pt-16 px-12">
+
+        <div class="flex flex-col lg:flex-row justify-between">
+            <div class="my-6">
+                <!-- Kitchenware section -->
+                <div class="mb-12">
+                    <h2 class="text-4xl font-semibold mb-12">Kitchenware</h2>
+                    <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- card 1 -->
+                        <div id="card-accessories1" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="accessories-title1" class="card-title text-[20px] font-semibold">K. Accessories</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="accessories1-price">39.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div id="card-accessories2" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="accessories-title2" class="card-title text-[20px] font-semibold">K. Accessories</h2>
+                                <p>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="accessories2-price">25.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div id="home-cooker" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="cooker-title" class="card-title text-[20px] font-semibold">Home Cooker</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="cooker-price">49.00</span> TK</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Sportswear section -->
+                <div class="mb-12">
+                    <h2 class="text-4xl font-semibold mb-12">Sportswear</h2>
+                    <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- card 1 -->
+                        <div id="sports-cap" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod4.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="cap-title" class="card-title text-[20px] font-semibold">Sports Back Cap</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="cap-price">49.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div id="full-jersey" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod5.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="jersey-title" class="card-title text-[20px] font-semibold">Full Jersey Set</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="jersey-price">69.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div id="sports-cates" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod6.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="cates-title" class="card-title text-[20px] font-semibold">Sports cates</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="cates-price">159.00</span> TK</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Furniture section -->
+                <div class="mb-12">
+                    <h2 class="text-4xl font-semibold mb-12">Sportswear</h2>
+                    <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- card 1 -->
+                        <div id="relax-chair" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod7.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="chair-title" class="card-title text-[20px] font-semibold">Single Relax Chair</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-regular fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="chair-price">185.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div id="children-chair" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod8.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="children-chair-title" class="card-title text-[20px] font-semibold">Children play</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="children-chair-price">299.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div id="flexible-sofa" class="card w-72 bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="/images/prod9.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 id="sofa-title" class="card-title text-[20px] font-semibold">Flexible Sofa</h2>
+                                <p>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                </p>
+                                <p class="text-[#11111180]"><span id="flexible-sofa-price">339.00</span> TK</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-[318px] mt-28">
+                <div class="bg-white rounded-lg py-4">
+                    <h4 class="text-2xl font-medium mb-4 pl-2">Have coupon?</h4>
+                    <p class="px-2">
+                        <input id="coupon-field" class="py-2 pl-2 bg-[#F8F8F8]" type="text" placeholder="Coupon code">
+                        <button id="btn-apply"class="bg-[#E527B2] py-2 px-4 ml-[-5px] rounded-lg text-white disabled:opacity-50" disabled>Apply</button>
+                    </p>
+                </div>
+                <div id="items-push" class="mt-4 bg-white rounded-lg py-4 text-2xl font-medium pl-2">
+                   
+                </div>
+                <div class="text-2xl font-medium bg-white rounded-lg mt-4 px-2 py-4">
+                    <p class="mt-2">Total Price: <span id="total-price" class="text-[#11111180]">00</span> <span class="text-[#11111180] font-normal">Tk</span></p>
+                    <p id="discount-price" class="mt-2">Discount: <span id="discount" class="text-[#11111180] font-normal">00</span> <span class="text-[#11111180] font-normal">Tk</span></p>
+                    <p class="mt-2">Total: <span id="total" class="text-[#11111180] font-normal">00</span> <span class="text-[#11111180] font-normal">Tk</span></p>
+                    <button id="make-purchase" class="bg-[#E527B2] py-3 px-4 rounded-lg text-white w-full  text-center mt-8 disabled:opacity-50" onclick="my_modal_1.showModal()" disabled>Make Purchase</button>
+                    <dialog id="my_modal_1" class="modal">
+                        <form method="dialog" class="modal-box text-center">
+                            <div class="flex justify-center">
+                                <img src="images/congo.png" alt="">
+                            </div>
+                          <h3 class="font-bold text-lg">Congratulations</h3>
+                          <p class="py-2">Your Purchase the product</p>
+                          <div class="modal-action flex justify-center">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button id="btn-go-home" class="py-3 px-4 text-center rounded-lg text-white bg-[#E527B2]">Go Home</button>
+                          </div>
+                        </form>
+                      </dialog>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
